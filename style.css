@@ -350,6 +350,7 @@ section.blog {
     font-size: 3rem;
     text-align: center;
     margin: 32px 16px;
+    margin-bottom: 128px;
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 1024px){
