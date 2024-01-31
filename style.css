@@ -462,6 +462,7 @@ section.blog {
 
     .header__nav {
         font-size: 1rem;
+        justify-content: space-evenly;
     }
 
     .header__nav__item {
@@ -551,6 +552,7 @@ section.blog {
 
     .header__nav {
         font-size: 1rem;
+        justify-content: space-evenly;
     }
 
     .header__nav__item {
