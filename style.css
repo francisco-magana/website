@@ -191,8 +191,8 @@ section.main {
 }
 
 .shape {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition: 0.3s;
 }
 
