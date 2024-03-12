@@ -146,6 +146,10 @@ section.main {
     background-color: #F4D738;
 }
 
+.about-me {
+    margin-top: 42px;
+}
+
 .about-me-text {
     width: 640px;
 }
@@ -155,13 +159,15 @@ section.main {
 }
 
 .sub-title {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 .sub-title-container {
     border-bottom: 8px solid #F4D738;
     width: fit-content;
+    margin: auto;
     transition: 0.3s;
+    text-align: center;
 }
 
 .experience-container {
@@ -194,6 +200,40 @@ section.main {
     width: 200px;
     height: 200px;
     transition: 0.3s;
+}
+
+.tech-stack-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw 32px;
+}
+
+.tech-list {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-icon {
+    font-size: 72px;
+}
+
+.tech-stack-title {
+    font-size: 52px;
+    text-align: center;
+}
+
+.tech-stack-desc-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .personal-projects-flex {
@@ -396,6 +436,14 @@ section.blog {
         font-size: 1.7rem;
     }
 
+    .tech-stack-section {
+        margin: 15vw 32px;
+    }
+
+    .tech-icon {
+        font-size: 62px;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 740px) {
@@ -480,6 +528,10 @@ section.blog {
         margin-top: 32px;
     }
 
+    .cards-container {
+        display: block;
+    }
+
     .card {
         flex-direction: column-reverse;
         justify-content: center;
@@ -493,6 +545,10 @@ section.blog {
         width: unset;
     }
 
+    .project-title {
+        text-align: center;
+    }
+
     .project-description {
         width: unset;
     }
@@ -504,7 +560,6 @@ section.blog {
 
     .app-image {
         margin: 16px 0;
-
     }
 
     .techs {
@@ -512,6 +567,14 @@ section.blog {
         justify-content: center;
         align-items: center;
         width: unset;
+    }
+
+    .tech-stack-section {
+        margin: 15vw 32px;
+    }
+
+    .tech-icon {
+        font-size: 54px;
     }
 
 }
@@ -579,7 +642,7 @@ section.blog {
     }
 
     .sub-title {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .project-title {
@@ -612,5 +675,13 @@ section.blog {
         justify-content: center;
         align-items: center;
         width: unset;
+    }
+
+    .tech-stack-section {
+        margin: 20vw 32px;
+    }
+
+    .tech-icon {
+        font-size: 48px;
     }
 }
