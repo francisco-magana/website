@@ -229,6 +229,10 @@ section.main {
     text-align: center;
 }
 
+.tech-stack-title + p {
+    text-align: center;
+}
+
 .tech-stack-desc-flex {
     display: flex;
     flex-direction: column;
